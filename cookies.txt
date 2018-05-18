@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+bigpumpgroup.com	TRUE	/	FALSE	1999999999	csrf_cookie_name	f2c64e315bd4abde43c884c8c796022a
+bigpumpgroup.com	TRUE	/	FALSE	1999999999	ci_session	deleted
+.bigpumpgroup.com	TRUE	/	FALSE	1999999999	__cfduid	d808aab5994689edfd1ba02be5371f1a61526672974
+
