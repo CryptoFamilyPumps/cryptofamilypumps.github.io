@@ -1,56 +1,14 @@
-HTTrack3.49-2+htsswf+htsjava launched on Fri, 18 May 2018 15:48:46 at https://bigpumpgroup.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
-(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://bigpumpgroup.com/ -O1 "C:\My Web Sites\website" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 31 May 2018 01:12:53 at https://crypto-bridge.org/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://crypto-bridge.org/ -O1 "C:\My Web Sites\cb" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
 
 Information, Warnings and Errors reported for this mirror:
 note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-15:49:08	Warning: 	File not parsed, looks like binary: https://bigpumpgroup.com/assets/fonts/glyphicons-halflings-regular.woff2
-15:49:09	Error: 	"Not Found" (404) at link https://bigpumpgroup.com/img/splash-bg-2.jpg (from https://bigpumpgroup.com/assets/css/main.css)
-15:49:34	Error: 	"Method Not Allowed" (405) at link https://bigpumpgroup.com/blog/xmlrpc.php (from https://bigpumpgroup.com/blog/the-best-cryptocurrency-exchanges-for-2018/)
-15:49:34	Warning: 	Moved Permanently for https://bigpumpgroup.com/blog/?p=79
-15:49:34	Warning: 	File has moved from https://bigpumpgroup.com/blog/?p=79 to https://bigpumpgroup.com/blog/the-best-cryptocurrency-exchanges-for-2018/
-15:49:34	Warning: 	Moved Permanently for https://bigpumpgroup.com/blog/?p=76
-15:49:34	Warning: 	File has moved from https://bigpumpgroup.com/blog/?p=76 to https://bigpumpgroup.com/blog/what-are-the-best-cryptocurrencies-for-you-to-invest-in/
-15:49:34	Warning: 	Moved Permanently for https://bigpumpgroup.com/blog/?p=73
-15:49:34	Warning: 	File has moved from https://bigpumpgroup.com/blog/?p=73 to https://bigpumpgroup.com/blog/top-10-youtube-cryptocurrency-experts-you-need-to-check-out/
-15:49:34	Warning: 	Moved Permanently for https://bigpumpgroup.com/blog/?p=68
-15:49:34	Warning: 	File has moved from https://bigpumpgroup.com/blog/?p=68 to https://bigpumpgroup.com/blog/top-10-reddit-subs-to-follow-for-cryptocurrency-news/
-15:49:34	Warning: 	Moved Permanently for https://bigpumpgroup.com/blog/?p=65
-15:49:34	Warning: 	File has moved from https://bigpumpgroup.com/blog/?p=65 to https://bigpumpgroup.com/blog/top-4-south-korean-exchanges-that-are-worth-checking-out/
-15:49:34	Warning: 	Moved Permanently for https://bigpumpgroup.com/blog/?p=62
-15:49:34	Warning: 	File has moved from https://bigpumpgroup.com/blog/?p=62 to https://bigpumpgroup.com/blog/the-top-10-cryptocurrency-twitter-accounts-you-cannot-be-without/
-15:49:34	Warning: 	Moved Permanently for https://bigpumpgroup.com/blog/?p=59
-15:49:34	Warning: 	File has moved from https://bigpumpgroup.com/blog/?p=59 to https://bigpumpgroup.com/blog/5-tips-for-the-novice-cryptocurrency-trader/
-15:49:34	Warning: 	Moved Permanently for https://bigpumpgroup.com/blog/?p=56
-15:49:34	Warning: 	File has moved from https://bigpumpgroup.com/blog/?p=56 to https://bigpumpgroup.com/blog/binance-or-bittrex-which-is-the-best/
-15:49:34	Warning: 	Moved Permanently for https://bigpumpgroup.com/blog/?p=53
-15:49:34	Warning: 	File has moved from https://bigpumpgroup.com/blog/?p=53 to https://bigpumpgroup.com/blog/how-to-profit-from-a-pump-and-dump-group/
-15:49:34	Warning: 	Moved Permanently for https://bigpumpgroup.com/blog/?p=50
-15:49:34	Warning: 	File has moved from https://bigpumpgroup.com/blog/?p=50 to https://bigpumpgroup.com/blog/how-can-you-accurately-spot-a-pump-and-dump/
-15:49:34	Warning: 	Moved Permanently for https://bigpumpgroup.com/blog/?p=47
-15:49:34	Warning: 	File has moved from https://bigpumpgroup.com/blog/?p=47 to https://bigpumpgroup.com/blog/what-are-the-best-bitcoin-trading-bots-around/
-15:49:35	Warning: 	Moved Permanently for https://bigpumpgroup.com/blog/?p=34
-15:49:35	Warning: 	File has moved from https://bigpumpgroup.com/blog/?p=34 to https://bigpumpgroup.com/blog/a-binance-review-what-you-need-to-know/
-15:49:35	Warning: 	Moved Permanently for https://bigpumpgroup.com/blog/?p=31
-15:49:35	Warning: 	File has moved from https://bigpumpgroup.com/blog/?p=31 to https://bigpumpgroup.com/blog/checking-out-the-binance-pump-and-dump-group-on-telegram/
-15:49:35	Warning: 	Moved Permanently for https://bigpumpgroup.com/blog/?p=28
-15:49:35	Warning: 	File has moved from https://bigpumpgroup.com/blog/?p=28 to https://bigpumpgroup.com/blog/big-pump-signal-review-is-bigpumpsignal-scam/
-15:49:35	Warning: 	Moved Permanently for https://bigpumpgroup.com/blog/?p=23
-15:49:35	Warning: 	File has moved from https://bigpumpgroup.com/blog/?p=23 to https://bigpumpgroup.com/blog/what-are-the-best-crypto-signal-channels-on-telegram/
-15:49:35	Warning: 	Moved Permanently for https://bigpumpgroup.com/blog/?p=20
-15:49:35	Warning: 	File has moved from https://bigpumpgroup.com/blog/?p=20 to https://bigpumpgroup.com/blog/are-pump-and-dump-groups-a-scam/
-15:49:35	Warning: 	Moved Permanently for https://bigpumpgroup.com/blog/?p=17
-15:49:35	Warning: 	File has moved from https://bigpumpgroup.com/blog/?p=17 to https://bigpumpgroup.com/blog/what-is-the-most-trusted-pump-group-on-telegram/
-15:49:35	Warning: 	Moved Permanently for https://bigpumpgroup.com/blog/?p=14
-15:49:35	Warning: 	File has moved from https://bigpumpgroup.com/blog/?p=14 to https://bigpumpgroup.com/blog/what-is-the-telegram-pump-dump-cryptocurrency-trading-groups-scheme/
-15:49:35	Warning: 	Moved Permanently for https://bigpumpgroup.com/blog/?p=11
-15:49:35	Warning: 	File has moved from https://bigpumpgroup.com/blog/?p=11 to https://bigpumpgroup.com/blog/sell-walls-just-what-exactly-are-they/
-15:49:35	Warning: 	Moved Permanently for https://bigpumpgroup.com/blog/?p=8
-15:49:35	Warning: 	File has moved from https://bigpumpgroup.com/blog/?p=8 to https://bigpumpgroup.com/blog/introducing-you-to-pump-and-dump-groups/
-15:49:35	Warning: 	Moved Permanently for https://bigpumpgroup.com/blog/?p=5
-15:49:35	Warning: 	File has moved from https://bigpumpgroup.com/blog/?p=5 to https://bigpumpgroup.com/blog/a-list-of-crypto-signals-channels-on-telegram/
+01:13:19	Error: 	"Not Found" (404) at link https://crypto-bridge.org/index.html (from https://crypto-bridge.org/)
+01:13:21	Error: 	"Not Found" (404) at link https://crypto-bridge.org/img/downsides.svg (from https://crypto-bridge.org/)
+01:13:21	Warning: 	Link https://crypto-bridge.org/cdn-cgi/l/email-protection not scanned (follow robots meta tag)
 
-HTTrack Website Copier/3.49-2 mirror complete in 49 seconds : 200 links scanned, 176 files written (8754145 bytes overall) [7409132 bytes received at 151206 bytes/sec], 2205921 bytes transferred using HTTP compression in 137 files, ratio 32%, 43.0 requests per connection
-(2 errors, 43 warnings, 0 messages)
+HTTrack Website Copier/3.49-2 mirror complete in 29 seconds : 47 links scanned, 44 files written (2465742 bytes overall) [1765688 bytes received at 60885 bytes/sec], 1143666 bytes transferred using HTTP compression in 35 files, ratio 35%, 4.7 requests per connection
+(2 errors, 1 warnings, 0 messages)

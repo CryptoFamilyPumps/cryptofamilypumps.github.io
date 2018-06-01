@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from crypto-bridge.org/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 31 May 2018 05:13:22 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<title>CryptoBridge - Decentralized Cryptocurrency Exchange</title>
+	<meta content="" name="description">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta content="all,follow" name="robots">
+	<link href="../maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/themify-icons.css" rel="stylesheet">
+	<link href="../maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.default.css" id="theme-stylesheet" rel="stylesheet">
+	<link href="favicon.ico" rel="shortcut icon">
+	<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<link href="apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+	<link href="favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+	<link href="favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+	<link href="manifest.json" rel="manifest">
+	<link color="#5bbad5" href="safari-pinned-tab.svg" rel="mask-icon">
+	<meta content="#ffffff" name="theme-color">
+	<link href="../cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet">
+	<link href="css/accordion.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="../platform-api.sharethis.com/js/sharethis.js#property=59db1f00be590e00122886ad&product=sticky-share-buttons" type="text/javascript">
+	</script>
+</head>
+<body data-offset="120" data-spy="scroll" data-target="#navigation">
+	<!--<div class="language-switch">
+		<ul>
+			<li>
+				<a class="active" href="#">EN</a>
+			</li>
+			<li>
+				<a href="#">CN</a>
+			</li>
+		</ul>
+	</div>-->
+	<section class="intro image-background">
+		<div class="overlay demo-1">
+			<div id="large-header" class="large-header">
+				<canvas id="demo-canvas"></canvas>
+			</div>
+		</div>
+		<div class="content">
+			<div class="container clearfix">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 col-sm-12">
+						<br />
+						<!--img alt="CryptoBridge" class="img-responsive" src="img/newlogo3.png"-->
+						<object data="img/cryptobridge-logo.svg" type="image/svg+xml" style="max-width: 90vw;"></object>
+						<p class="roboto">Decentralized Cryptocurrency Exchange</p>
+						<p class="roboto gray">in the hands of BridgeCoin holders</p>
+						<style>
+.btn {
+-webkit-border-radius: 28;
+-moz-border-radius: 28;
+border-radius: 14px;
+font-size: 14px;
+background: #0089C4;
+padding: 10px 20px 10px 20px;
+text-decoration: none;
+}
+.btn:hover {
+background: #ffffff;
+text-decoration: none;
+}
+.intro {
+	height: 100vh;
+	width: 100vw;
+	vertical-align: middle;
+	display: table-cell;
+}
+						</style>
+						<div>
+							<a class="btn" href="https://wallet.crypto-bridge.org/?r=cryptobridge" target="_blank">Launch DEX</a> <a class="btn" href="#download">Download</a>
+						</div>
+<style>
+.arrow-wave {
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 0;
+/*   background-color: rgba(100,100,100,0.4); */
+}
+
+.arrow-wave span {
+  display: block;
+  position: relative;
+  height: 10px;
+  width: 16px;
+/*   background-color: rgba(100,100,100,0.4); */
+  opacity: 0.2;
+}
+
+.arrow-wave span::before,
+.arrow-wave span::after {
+  display: block;
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 12px;
+  background-color: #ffffff;
+}
+
+.arrow-wave span::before {
+  top: -2px;
+  left: 0;
+  transform-origin: left center;
+  transform: rotate(45deg);
+}
+
+.arrow-wave span::after {
+  top: -2px;
+  right: 0;
+  transform-origin: right center;
+  transform: rotate(-45deg);
+}
+
+.arrow-wave span:nth-child(1n) {
+  animation: animate-arrow-wave 2s infinite;
+  animation-delay: .25s;
+}
+.arrow-wave span:nth-child(2n) {
+  animation: animate-arrow-wave 2s infinite;
+  animation-delay: .50s;
+}
+
+.arrow-wave span:nth-child(3n) {
+  animation: animate-arrow-wave 2s infinite;
+  animation-delay: .75s;
+}
+
+@keyframes animate-arrow-wave {
+  0%   { opacity: 0.2; }
+  25%  { opacity: 0.2; }
+  50%  { opacity: 0.2; }
+  75%  { opacity: 1.0; }
+  100% { opacity: 0.2; }
+}
+</style>
+
+<div class="arrow-wave">
+  <a href="#about"><span></span>
+<span></span>
+<span></span></a>
+</div>
+						
+						<br />
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- navbar-->
+    <header class="header">
+      <div class="sticky-wrapper">
+        <div role="navigation" class="navbar navbar-default">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="index-2.html" class="navbar-brand scroll-to"><img src="img/logo.png" alt="" width="50"></a>
+            <p class="btn-xs" style="width: 12em;"><b>$BCO price</b><br /><a href="https://wallet.crypto-bridge.org/" target="_blank">0.00022050 BTC</a>
+			</div>
+            <div id="navigation" class="collapse navbar-collapse">
+              <style>
+@media screen and (max-width: 1920px) {
+  .nav.navbar-nav.navbar-right {
+  .display: none;}
+}
+						</style>
+				<ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">About</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="https://medium.com/@cryptobridge" target="_new">Blog</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#support">Support</a></li>
+                <li><a href="addcoin.html">Add coin</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- /.navbar-->
+	
+	<section id="about">
+		<div class="container clearfix">
+			<div class="row margin-bottom">
+				<div class="col-md-6 margin-bottom">
+					<h2 class="heading">DECENTRALIZED</h2>
+					<p class="lead">CryptoBridge DEX</p>
+					<p style="text-align:justify">CryptoBridge is a decentralized exchange (DEX) that supports trading of most popular altcoins. <b>The main innovation is elimination of a single point of failure when trading cryptocurrencies.</b></p>
+					<p style="text-align:justify">In addition, another unique selling point is the usage of a multi-signature federated gateway software used by a dozen trusted gateways, operating on multiple continents, enabling trust-reduced issuing and withdrawing of the supported coins.</p>
+				</div>
+				<div class="col-md-6 margin-bottom">
+					<p><img alt="" class="img-responsive" src="img/template-homepage.png"></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<p class="lead">Decentralized technology</p>
+					<div class="row">
+						<div class="col-sm-6">
+							<p style="text-align:justify">CryptoBridge's target audience are <b>altcoin traders</b> trading on centralized cryptocurrency exchanges which are riddled with performance problems and can be subject to thefts, manipulation, hacking incidents or government takedowns.</p>
+							<p style="text-align:justify">These problems are solved by the decentralized blockchain based order book and the multi-signature federated gateway network.</p>
+							<p style="text-align:justify"><b>There is no central point of failure</b>. All deposits, withdrawals and all order books are transparently stored on the blockchain.</p>
+						</div>
+						<div class="col-sm-6">
+							<p style="text-align:justify">The client will still be able to deposit, withdraw and trade coins even in the event CryptoBridge goes out of business. Each client holds the private keys to their coins. <b>CryptoBridge has no access to the client's funds on the exchange.</b></p>
+							<p style="text-align:justify">The blockchain behind the decentralized exchange, graphene, can process up to <b>100.000 transactions per second</b> and has an average confirmation time of just 3 seconds. The DEX offers a complete API for any interested party to build applications on top of the decentralized exchange.</p>
+						</div>
+					</div>
+					<!--img alt="" class="img-responsive" src="img/main01.png"-->
+					<center>
+					<object data="img/downsides.html" type="image/svg+xml" style="width: 50em; max-width: 90vw;"></object>
+					</center>
+				</div>
+								
+			</div>
+		</div>
+	</section>
+	
+	<section id="news">
+		<div class="container clearfix">
+	
+			<div class="row margin-bottom">
+				<h2 class="heading">ANNOUNCEMENTS</h2>
+				<div class="col-md-6 margin-bottom">
+					<p class="lead">CryptoBridge 0.12.6 *UI-refresh* release <span style="float: right; color: #AAA">May 2018</span></p>
+					<p style="text-align:justify"><b>Changelog</b><br />
+					<ul>
+						<li>Full refresh of the UI</li>
+						<li>Major improvements in stability and connectivity</li>
+						<li>Per-coin warnings and notifications</li>
+					</ul>	
+					<p style="text-align:justify">
+					After a series of previews, betas and web wallet updates, we're proud to release an update for the app client as well. Be sure to follow us for the upcoming big news in May and June on our Discord as well as Twitter.
+					</p>
+				</div>
+				<div class="col-md-6 margin-bottom">
+					<p><img  alt="" class="img-responsive" src="img/cb-perspective.png"></p>
+				</div>
+
+				<div class="col-md-12 margin-bottom">
+					<p style="text-align:justify"><b>What about Market Makers?</b><br />
+						We're extending the market maker program, and will continue to reward market makers (reimbursing their order fee) for the time being. As this would cut into 50% profit share for the stakers, CryptoBridge organisation will dedicate all of its profit share to the stakers, meaning full profit is to be distributed to CryptoBridge users (25% to market makers and 75% to BCO staking)!
+					</p>
+				</div>
+			</div>
+			
+			<!--div class="heading">
+			</div>
+
+			<div class="row margin-bottom">
+				<div class="col-md-6 margin-bottom">
+					<p class="lead">CryptoBridge 0.9.3 beta release <span style="float: right; color: #AAA">2017-11-23</span></p>
+					<p style="text-align:justify">CryptoBridge DEX 0.9.3 Client released</b></p>
+					<p style="text-align:justify"><b>Changelog</b><br />
+					<ul>
+						<li>Better market selector</li>
+						<li>Lots of usability and performance improvements</li>
+						<li>Added a linux binary</li>
+						<li>Added Japanese language, kudos to @inoue and @bibop for the Japanese translations!</li>
+					</ul>	
+					<p style="text-align:justify">
+					If you're using the <a href="https://wallet.crypto-bridge.org">Web Wallet</a>  you'll get the new version automatically. Be sure to force-reload the url if you still see the old version. Downloads are available further down.
+					</p>
+					<p style="text-align:justify"><b>Whats next?</b><br />
+					We're still working hard on enabling staking. There will be a another release in about a week to enable BCO staking. We're very much looking forward to this.</p>
+				</div>
+				<div class="col-md-6 margin-bottom">
+					<p><img  alt="" class="img-responsive" src="img/cb-perspective.png"></p>
+				</div>
+			</div-->
+			<div class="heading">
+			</div>
+
+			<div class="row margin-bottom">
+				<div class="col-md-6 margin-bottom">
+					<p class="lead">CryptoBridge Market Maker program <span style="float: right; color: #AAA">2017-10-25</span></p>
+					<p style="text-align:justify">We are proud to announce the Market Maker program which allows all participants to earn money by providing liquidity to a trading market.</b></p>
+					<p style="text-align:justify"><b>What is a market maker?</b><br />
+					A market maker is someone who provides liquidity to a market. You can do that by creating sell or buy orders (limit orders), thus reducing the spread. This is good for markets: it gives other potential participants visible options and information. Thick order books also reduce slippage (ie. a large order doesn't spike the price as much, one way or the other). Thus adding liquidity to a market adds value to all <b>existing and potential</b> participants.</p>
+					<p style="text-align:justify"><b>How does it work?</b><br />
+					Once a limit order you placed gets filled, you're not only getting reimbursed for the trading fee, you actually receive 50% of the market taker's trading fee. At <b>0.20%</b> fee per trading pair, you are actually earning <b>0.05%</b> per filled order. Our goal is to improve liquidity and spread on all our markets. Payouts are happening on a weekly basis.</p>
+					
+				</div>
+				<div class="col-md-6 margin-bottom">
+					<p><img alt="" class="img-responsive" src="img/dex-chart.png"></p>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	
+	<section class="section-gray" id="download">
+		<div class="container clearfix">
+			<div class="row services">
+				<div class="col-md-12">
+					<h2 class="heading">Download 0.12.6</h2>
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="box box-services">
+								<div class="icon">
+									<i class="ti-wallet"></i>
+								</div>
+								<h4 class="heading"><a href="https://wallet.crypto-bridge.org/">Web-Version</a></h4>
+								<p>Web based CryptoBridge Exchange<br />and Wallet.<br />
+								&nbsp;</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="box box-services">
+								<div class="icon">
+									<i class="ti-microsoft"></i>
+								</div>
+								<h4 class="heading"><a href="https://github.com/CryptoBridge/cryptobridge-ui/releases/download/v0.12.6/CryptoBridge.Setup.0.12.6.exe">Windows</a></h4>
+							 	<p>SHA-256 checksum:<br>
+								ba237cad0821ceb7c7e2a91d6b6abf86<br/>ebeb3e3b135491596baae7f599d95541
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="box box-services">
+								<div class="icon">
+									<i class="ti-apple"></i>
+								</div>
+								<h4 class="heading"><a href="https://github.com/CryptoBridge/cryptobridge-ui/releases/download/v0.12.6/CryptoBridge-0.12.6.dmg">Mac OS X</a></h4>
+								<p>SHA-256 checksum:<br>
+								e6e9fbd2a5ec28f1fb7d86e716616e02<br/>f08b1488ee184bd33a8b28b8634876e2
+
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="box box-services">
+								<div class="icon">
+									<i class="ti-linux"></i>
+								</div>
+								<h4 class="heading"><a href="https://github.com/CryptoBridge/cryptobridge-ui/releases/download/v0.12.6/CryptoBridge_0.12.6_amd64.deb">Linux (deb)</a></h4>
+								<p>SHA-256 checksum:<br>
+								4ba3a6c1ee925a5927494a490f87786d<br/>30ab0bb8e67e0fa0877ce6aa54c6f2e3
+							</div>
+						</div>
+
+						<div class="col-sm-4">
+							<div class="box box-services">
+								<div class="icon">
+									<i class="ti-github"></i>
+								</div>
+								<h4 class="heading"><a href="https://github.com/CryptoBridge/cryptobridge-ui">GitHub source</a></h4>
+								<p>Decentralized Exchange client source<br>
+								<br>
+								<br>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="faq">
+		<div class="container clearfix">
+			<div class="row services">
+				<div class="col-md-12">
+					<h2 class="heading">FAQ</h2>
+					<div class="wrapper">
+						<div class="half">
+							<div class="tab">
+								<input id="tab-one" name="tabs" type="checkbox"> <label for="tab-one">What is CryptoBridge?</label>
+								<div class="tab-content">
+									<p>CryptoBridge is a decentralized exchange running on top of the BitShares Network. It supports decentralized trading on all popular altcoin pairs without a single point of failure. You always hold the private keys to your funds, only you have access to them.</p>
+								</div>
+							</div>
+							<div class="tab">
+								<input id="tab-two" name="tabs" type="checkbox"> <label for="tab-two">What is BridgeCoin?</label>
+								<div class="tab-content">
+									<p>BridgeCoin is a scrypt mineable coin similar to Litecoin. It was created in July 2017 to fund the development of the full CryptoBridge decentralized exchange. After funding is successful and the platform comes out of beta, 50% of all CryptoBridge DEX profits will be distributed to participating BridgeCoin owners.</p>
+								</div>
+							</div>
+							<div class="tab">
+								<input id="tab-three" name="tabs" type="checkbox"> <label for="tab-three">How is it decentralized?</label>
+								<div class="tab-content">
+									<p>CryptoBridge runs on top of the BitShares Blockchain which is decentralized by itself. In addition, our distributed federated gateway network enables trust-reduced depositing and withdrawal of all coins.</p>
+								</div>
+							</div>
+							<div class="tab">
+								<input id="tab-four" name="tabs" type="checkbox"> <label for="tab-four">How is a web based wallet decentralized?</label>
+								<div class="tab-content">
+									<p>The wallet just hosts the application that you download, it stores no information at all from the user. All the connections to the blockchain happen client side. You can also download a Windows or Mac OS X client.</p>
+								</div>
+							</div>
+							<div class="tab">
+								<input id="tab-five" name="tabs" type="checkbox"> <label for="tab-five">What is a Gateway?</label>
+								<div class="tab-content">
+									<p>A gateway is a service that you can use deposit/withdraw coins and that converts coins to proxy-assets (UIA). Each issued proxy-asset is backed 1:1 with the real coins by the gateway.</p>
+								</div>
+							</div>
+						</div>
+						<div class="half">
+							<div class="tab blue">
+								<input id="tab-six" name="tabs2" type="checkbox"> <label for="tab-six">How are gateways decentralized in CryptoBridge?</label>
+								<div class="tab-content">
+									<p>CryptoBridge is using a federated network of many gateways connected to each other, all issuing the same multi-signature proxy-assets. A super majority of agreeing gateways is needed to publish a transaction on the blockchain. In this trust-reduced setup, you don't have to trust a single entity to hold your funds. Each gateway node is independently verifying the transactions of the other nodes to make sure gateways stay honest.</p>
+								</div>
+							</div>
+							<div class="tab blue">
+								<input id="tab-seven" name="tabs2" type="checkbox"> <label for="tab-seven">What are the differences to BitShares?</label>
+								<div class="tab-content">
+									<p>CryptoBridge is not a fork of BitShares/Graphene, it runs on top of the BitShares blockchain, much like other BTS Exchanges do. However, there are two main differences to any other BitShares Exchange:</p>
+									<p>CryptoBridge provides more decentralisation when it comes to the gateways, normally a BTS Gateway is a central point of failure because the Gateway is just operated by the company owning the exchange. The user is dependant on the gateway to deposit/withdraw his funds. In CryptoBridge, a federated distributed network of gateways, operating world-wide, makes sure that there is no single point of failure whatsoever. In fact, this network will continue to operate if CryptoBridge (the development company) goes out of business.</p>
+									<p>The second USP is the introduction of the BridgeCoin Profit Staking coin which shares 50% of the DEX with holders. No other BitShares exchange offers a mineable token.</p>
+								</div>
+							</div>
+							<div class="tab blue">
+								<input id="tab-eight" name="tabs2" type="checkbox"> <label for="tab-eight">How will funds be distributed?</label>
+								<div class="tab-content">
+									<p>Every week, the total profit of the DEX will be calculated, and distributed evenly to holders who have staked their BCO on the decentralized exchange. Staked BCO are removed from circulation for a specific time period yet to be determined.</p>
+								</div>
+							</div>
+							<div class="tab blue">
+								<input id="tab-nine" name="tabs2" type="checkbox"> <label for="tab-nine">How can I stake my coins? Are there fees?</label>
+								<div class="tab-content">
+									<p>Development of the basic platform needs to be finished first, to be expected to happen in Q4/2017. Afterwards, you can stake your coins in the client.</p>
+									<p>The market fees are set to 0.2% per trade pair.</p>
+								</div>
+							</div>
+							<div class="tab blue">
+								<input id="tab-ten" name="tabs2" type="checkbox"> <label for="tab-ten">Is it a wallet or an exchange?</label>
+								<div class="tab-content">
+									<p>It is actually both! It's safe to keep funds in the wallet assuming you have a strong password. Always download a backup of your wallet to a safe place.</p>
+								</div>
+							</div>
+							<div class="tab blue">
+								<input id="tab-eleven" name="tabs2" type="checkbox"> <label for="tab-eleven">How does staking work?</label>
+								<div class="tab-content">
+<p>A tutorial how to stake can be found on our blog <a target='_new' href='https://medium.com/@cryptobridge/tutorial-how-to-stake-bridgecoin-bco-on-cryptobridge-to-receive-50-of-profits-ce3fea3fad2e'>here</a>. More information how staking is calculated and how our bonus system works is also available <a target='_new' href='https://medium.com/@cryptobridge/introducing-staking-50-of-all-trading-profits-on-cryptobridge-will-go-to-bridgecoin-stakers-b26fe7723a3'>here</a>.</p>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section-gray" id="roadmap">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="heading">Roadmap</h2>
+					<!-- <h4 class="heading"><a href="https://bridgecoin.org">BridgeCoin</a> goals</h4> -->
+<!-- 					<p><img alt="Initial goals" class="img-responsive" src="img/bridgecoin_goals.jpg"> -->
+						<!-- <object data="img/bridgecoin-goals.svg" type="image/svg+xml" style="display: block; margin: auto; max-width: 80%;"></object> -->
+					</p>
+				<!-- 	<h4 class="heading">CryptoBridge roadmap</h4> -->
+					<div><img alt="Future roadmap" class="img-responsive" src="img/roadmap-new.jpg" style="max-width: 50em">
+					<!-- 	<object data="img/roadmap.svg" type="image/svg+xml" style="display: block; margin: auto; max-width: 90%; max-height: 90vh;"></object> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="support">
+		<div class="container clearfix">
+			<div class="row">
+				<h2 class="heading">Support</h2>
+			</div>
+			<p class="social">
+			To join our community, or to receive support, you can visit us on Discord:</p>
+			<p align="center">
+			<a href="https://discord.gg/7ntpqmt" target="_blank">
+			<img alt="" src="img/discord.png"></a></p>
+			<p style= "text-align: center;">
+			To open a support ticket please send an email to<br /><script language=Javascript type=text/javascript>
+<!--
+document.write('<a style="color:black; white-space: nowrap;" href="mai');
+document.write('lto');
+document.write(':&#115;&#117;&#112;&#112;&#111;&#114;&#116;');
+document.write('@');
+document.write('&#99;&#114;&#121;&#112;&#116;&#111;&#45;&#98;&#114;&#105;&#100;&#103;&#101;&#46;&#111;&#114;&#103;">');
+document.write('&#115;&#117;&#112;&#112;&#111;&#114;&#116;');
+document.write('@');
+document.write('&#99;&#114;&#121;&#112;&#116;&#111;&#45;&#98;&#114;&#105;&#100;&#103;&#101;&#46;&#111;&#114;&#103;<\/a>');
+// -->
+</script></p>
+		</div>
+	</section>
+	<section class="section-gray" id="contact">
+		<div class="container clearfix">
+			<div class="row">
+				<h2 class="heading">Contact</h2>
+			</div>
+			<p class="social"><img alt="" src="img/logo.png"></p>
+			<p class="social lead"><b>CryptoBridge DEX</b></p>
+			<p class="social">Decentralized Cryptocurrency Exchange</p>
+			<p class="social"><a class="facebook" href="https://www.facebook.com/CryptoBridge-1542875312441739/" title=""><i class="fa fa-facebook"></i></a> <a class="twitter" href="https://twitter.com/CryptoBridge" title=""><i class="fa fa-twitter"></i></a> <a class="email" href="cdn-cgi/l/email-protection.html#77040207071805033714050e0703185a15051e13101259180510" title=""><i class="fa fa-envelope"></i></a></p>
+		</div>
+	</section>
+	<footer class="section-blue">
+		<div class="container">
+			<div class="row copyright">
+				<div class="col-md-6">
+					<p class="roboto">&copy;2017-2018 Crypto-Bridge.org</p>
+				</div>
+				<div class="col-md-6">
+					<!--<p class="credit roboto"><a href="#">EN</a> | <a href="#">CN</a></p>-->
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script data-cfasync="false" src="cdn-cgi/scripts/f2bf09f8/cloudflare-static/email-decode.min.js"></script><script src="../ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+	</script> 
+	<script>
+	      window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')
+	</script> 
+	<script src="../maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js">
+	</script> 
+	<script src="js/jquery.sticky.js">
+	</script> 
+	<script src="js/jquery.scrollTo.min.js">
+	</script> 
+	<script src="js/jquery.cookie.js">
+	</script> 
+
+	<script>
+	             jQuery( '#navbar-toggle' ).on( 'click', function(e){
+	                 jQuery( '#navigation' ).toggleClass( "in" );
+	             });
+				 
+				 jQuery( '.navbar-nav a' ).on( 'click', function(e){
+	                 jQuery( '#navigation' ).toggleClass( "in" );
+	             });
+
+var offset = $('.navbar').offset().top;
+$('.header .sticky-wrapper').height($('.navbar').height());
+
+$(window).scroll(function () {
+  if ( $(this).scrollTop() > offset && !$('header').hasClass('fix') ) {
+    $('.navbar').addClass('fix');
+	$('.overlay').hide();
+   } else if ( $(this).scrollTop() <= offset ) {
+    $('.navbar').removeClass('fix');
+	$('.overlay').show();
+  }
+});
+	</script>
+		<script src="js/TweenLite.min.js"></script>
+		<script src="js/EasePack.min.js"></script>
+		<script src="js/rAF.js"></script>
+		<script src="js/demo-1.js"></script>
+</body>
+
+<!-- Mirrored from crypto-bridge.org/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 31 May 2018 05:13:22 GMT -->
+</html>

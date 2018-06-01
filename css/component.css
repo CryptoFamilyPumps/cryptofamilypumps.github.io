@@ -1,0 +1,20 @@
+/* Header */
+.large-header {
+
+}
+
+.demo-1 .large-header {
+
+}
+
+@media only screen and (max-width : 768px) {
+	.demo-1 .main-title, 
+	.demo-3 .main-title,
+	.demo-4 .main-title {
+		font-size: 3em;
+	}
+
+	.demo-2 .main-title {
+		font-size: 4em;
+	}
+}
